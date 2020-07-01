@@ -72,6 +72,13 @@ export default {
         this.$toast.fail(message)
       }
     }
+  },
+  created() {
+    // console.log(this.$route.query)
+    const { username, password } = this.$route.params
+    this.username = username
+    this.password = password
+    console.log(username, password)
   }
 }
 </script>
