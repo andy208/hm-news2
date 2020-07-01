@@ -1,5 +1,8 @@
 <template>
-  <div><HmHeader>登录</HmHeader></div>
+  <div>
+    <HmHeader>登录</HmHeader>
+    <HmLogo></HmLogo>
+  </div>
 </template>
 
 <script>
