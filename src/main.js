@@ -6,12 +6,14 @@ import './style/common.less'
 import './style/iconfont.less'
 import HmHeader from './components/HmHeader.vue'
 import HmLogo from './components/HmLogo'
-import { Button, Field, Form } from 'vant'
+import { Button, Field, Form, Toast } from 'vant'
 
 Vue.config.productionTip = false
 Vue.use(Button)
 Vue.use(Field)
 Vue.use(Form)
+Vue.use(Toast)
+
 Vue.component('HmHeader', HmHeader)
 Vue.component('HmLogo', HmLogo)
 new Vue({
