@@ -1,7 +1,5 @@
 <template>
   <div class="app">
-    <div class="box"><span class="iconfont iconweixin"></span></div>
-    首页
     <router-view></router-view>
   </div>
 </template>
